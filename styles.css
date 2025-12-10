@@ -1,6 +1,16 @@
-* {
-    font-family: Roboto;
+body {
+    font-family: Roboto, sans-serif;
     margin: 0px;
+}
+
+.header,
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+.copyright {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .header,
@@ -37,17 +47,51 @@
     color: #E5E7EB;
 }
 
+.header-links,
+.header-logo {
+    flex: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
 }
 
+.menu-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
 .signup-button {
     border: 1px solid white;
 }
 
+.section-2 {
+    flex-direction: column;
+}
 .s2-header {
+    text-align: center;
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+}
+
+.s2-img-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.s2-img-list img {
+    max-width: 200px;
+}
+
+.s2-img-list-item1,
+.s2-img-list-item2,
+.s2-img-list-item3,
+.s2-img-list-item4 {
+    flex: auto;
 }
