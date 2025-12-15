@@ -65,11 +65,7 @@ body {
     justify-content: flex-end;
     gap: 10px;
 }
-.signup-button {
-    border: 1px solid white;
-    align-self: flex-end;
-    border-radius: 6px;
-}
+
 
 .section-2 {
     flex-direction: column;
@@ -113,11 +109,19 @@ body {
     border-radius: 12px;
     margin: 80px 80px 80px 80px;
     padding: 25px 80px 25px 80px;
+    width: 800px;
     color: #E5E7EB;
     display: flex;
+    justify-content: space-between;
 }
 
 .s4-box p {
     margin: 0;
+}
+
+.signup-button {
+    border: 1px solid white;
+    align-self: flex-end;
+    border-radius: 6px;
 }
 
