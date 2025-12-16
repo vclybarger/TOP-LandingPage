@@ -1,9 +1,12 @@
 body {
     font-family: Roboto;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.header,
+header,
 .section-1,
 .section-2,
 .section-3,
@@ -11,9 +14,12 @@ body {
 .copyright {
     display: flex;
     justify-content: space-evenly;
+    width: 1000px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
-.header,
+header,
 .section-1,
 .copyright,
 .hero-button,
@@ -21,6 +27,12 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
 }
+
+/* header,
+.section-1 {
+    width: 800px;
+
+} */
 
 .section-3 {
     background-color: #E5E7Eb;
@@ -47,11 +59,10 @@ body {
     color: #E5E7EB;
 }
 
-.header-links,
 .header-logo {
     flex: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .header-logo {
